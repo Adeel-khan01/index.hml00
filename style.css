@@ -1,0 +1,77 @@
+Find what you need faster … Home is your new landing page and surfaces your most relevant files and folders
+*{
+    margin: 0;
+    padding: 0;
+}
+  body{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-image :url(https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/2852ef5f-3e49-4ee3-b208-683f57f5fc14/PK-en-20240115-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+      /* background-blend-mode: darken; */
+      background-repeat: no-repeat;
+      background-size: 100vw 100vh;
+      
+    
+  }  
+
+
+
+     .logo{
+      width: 12%;
+     }
+     
+.btn{
+      padding: 8px 15px;
+      color: white;
+      background-color: red;
+      display: inline-block;
+      text-decoration: none;
+      cursor: pointer;
+}
+.navbar{
+      padding-top: 5px;
+      padding-left: 2vw;
+      padding-right: 5vw;
+      height: 10vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+select{
+      margin-left: 70%;
+      padding: 8px;
+}
+.content{
+    
+      color: white;
+      position:obsolute;
+      margin-top:8%;
+      margin-left: 10%;
+}
+.content h1{
+      font-size: 50px;
+}
+.content h2{
+      font-size: 30px;
+}
+.mail{
+      width: 60%;
+      height: fit-content;
+      align-items: center;
+      background-color: white;
+      display: flex;
+   justify-content: space-between;
+}
+.mail input{
+      outline: none;
+      border: none;
+      padding: 12px 10px;
+      size: 1em;
+}
+.mail a{
+      height: fit-content;
+      background-color: red;
+      color: white;
+      padding: 18px 12px;
+      text-decoration: none;
+      
+}
